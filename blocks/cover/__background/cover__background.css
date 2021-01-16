@@ -1,0 +1,14 @@
+.cover__background{
+    background-image: url(../../../images/cover-route-66.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    
+}
+
