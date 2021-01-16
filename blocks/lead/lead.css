@@ -4,7 +4,7 @@
 @import url(./__caption/lead__caption.css);
 
 .lead{
-    max-width: 984px;
+    max-width: calc(100% - 2*148px);
     max-height: 1005px;
     margin: 0 auto;
 }
