@@ -5,3 +5,25 @@
     font-size: 18px;
     line-height: 163%;
 }
+
+
+@media screen and (max-width: 1024px){
+    .place__paragraphs{
+        max-width: 456px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .place__paragraphs{
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .place__paragraphs{
+        max-width: 288px;
+        margin: 0 auto 49px;
+        border: 1px solid yellow;
+    }
+}

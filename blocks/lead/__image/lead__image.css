@@ -3,3 +3,25 @@
     height: 615px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1024px){
+    .lead__image{
+        max-width: 100%;
+        height: auto;
+        
+    }
+}
+
+@media screen and (max-width: 768px){
+    .lead__image{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .lead__image{
+        max-width: 100%;
+        height: auto;
+    }
+}

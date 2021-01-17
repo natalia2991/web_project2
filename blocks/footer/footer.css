@@ -5,10 +5,32 @@
 @import url(./__links-item/footer__links-item.css);
 
 .footer{
-    width: 1184px;
+    max-width: 1184px;
     min-height: 18px;
     margin: 0 auto;
     margin-bottom: 24px;
     display: flex;
     justify-content: space-between;  
+}
+
+@media screen and (max-width: 1024px){
+    .footer{
+        max-width: 928px;
+        margin: 0 auto 24px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .footer{
+        max-width: 720px;
+        margin: 0 auto 24px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .footer{
+        max-width: 168px;
+        margin-left: 16px;
+        display: inline-block;
+    }
 }

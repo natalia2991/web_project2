@@ -5,5 +5,37 @@
 
 .intro{
     max-width: 690px;
-    margin: 114px 442px 92px 148px;
+    max-height: 569px;
+    margin-left: 148px;
+    margin-top: 114px;
+    margin-bottom: 92px;
+
+}
+
+@media screen and (max-width: 1024px){
+    .intro{
+        max-width: 690px;
+        max-height: 569px;
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .intro{
+        max-width: 720px;
+        max-height: 543px;
+        margin: 0 auto;
+        margin-top: 88px;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .intro{
+        max-width: 288px;
+        max-height: 841px;
+        margin: 0 auto;
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
 }

@@ -15,3 +15,21 @@
     font-size: 24px;
     line-height: 34px;
 }
+
+@media screen and (max-width: 768px){
+    .into__text{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .into__text{
+        max-width: 100%;
+    }
+
+    .intro__text:nth-of-type(1){
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+
