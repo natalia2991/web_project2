@@ -1,13 +1,11 @@
 .place__image{
     max-width: 460px;
-    max-height: 460px;
     grid-row: 2/-1;
 }
 
 @media screen and (max-width: 1024px){
     .place__image{
         max-width: 440px;
-        max-height: 440px;
         grid-row: 2/-1;
     }
 }
@@ -15,7 +13,6 @@
 @media screen and (max-width: 768px){
     .place__image{
         max-width: 340px;
-        max-height: 340px;
         grid-row: 2/-1;
     }
 }
@@ -23,7 +20,6 @@
 @media screen and (max-width: 320px){
     .place__image{
         max-width: 100%;
-        max-height: 100%;
         margin-bottom: 32px;
     }
 }

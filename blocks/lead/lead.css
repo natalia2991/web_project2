@@ -5,7 +5,6 @@
 
 .lead{
     max-width: 984px;
-    max-height: 1005px;
     margin: 0 auto;
     
 }
@@ -13,21 +12,18 @@
 @media screen and (max-width: 1024px){
     .lead{
         max-width: 928px;
-        max-height: 962px; 
     }
 }
 
 @media screen and (max-width: 768px){
     .lead{
         max-width: 768px;
-        max-height: 862px;
     }
 }
 
 @media screen and (max-width: 320px){
     .lead{
         max-width: 320px;
-        max-height: 406px;
     }
 }
 
