@@ -1,12 +1,21 @@
 .cover__title{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     max-width: 656px;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    position: absolute;
-    top: 283px;
-    left: 264px;
+    position: relative;
+    z-index: 1;
+   
 }
+    
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+      max-width: 288px;
+      font-size: 32px;
+      line-height: 35px;
+    }
+  }

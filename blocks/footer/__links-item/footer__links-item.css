@@ -1,25 +1,25 @@
 .footer__links-item{
-    margin: 0;
-    padding: 0;
+    font-size: 16px;
+    line-height: 18px;
 }
 
 .footer__links-item:nth-of-type(2){
-    margin: 0 18px;
+    margin-left: 18px;
+    margin-right: 18px;
 }
 
 @media screen and (max-width: 320px){
-    .footer__links-item{
-        font-size: 24px;
-        line-height: 24px;
-        margin-bottom: 32px;
-    }
-
     .footer__links-item:nth-of-type(2){
-        margin: 0 0 32px;
-      
+        margin: 32px 0;
+
     }
 
     .footer__links-item:last-of-type{
         margin-bottom: 48px;
+    }
+
+    .footer__links-item{
+        font-size: 24px;
+        line-height: 24px;
     }
 }

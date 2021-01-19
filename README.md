@@ -1,20 +1,15 @@
 # Project 3: From Portland to Portland
 
-### Overview
-* Intro
-* Figma
-* Images
 
-**Intro**
+This is a project about traveling across the US. 
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+Used technologies:
+* HTML
+* CSS
+* BEM methodology
+* Web page built based on Firgma project
 
-**Figma**
 
-* [Link to the project on Figma](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=500%3A0)
+Project uses HTML sematic elements to define different parts of the web page. The website's layout and style is controled by CSS. BEM methodology was applied to the class naming and file structure organization. The website is fully responsive and prepared to be rendered on devices with 320px 768px 1024px 1280px.
 
-**Images**
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!
+The web page contains clicable links and hover effects. 
