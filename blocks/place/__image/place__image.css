@@ -1,25 +1,22 @@
 .place__image{
-    max-width: 460px;
+    max-width: 100%;
     grid-row: 2/-1;
 }
 
 @media screen and (max-width: 1024px){
     .place__image{
-        max-width: 440px;
         grid-row: 2/-1;
     }
 }
 
 @media screen and (max-width: 768px){
     .place__image{
-        max-width: 340px;
         grid-row: 2/-1;
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 450px){
     .place__image{
-        max-width: 100%;
         margin-bottom: 32px;
     }
 }
