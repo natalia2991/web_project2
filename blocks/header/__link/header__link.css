@@ -6,7 +6,7 @@
 }
 
 
-@media screen and (max-width:450x){
+@media screen and (max-width:450px){
     .header__link{
         margin-top: 10px;
         margin-bottom: 6px;
