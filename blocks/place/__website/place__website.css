@@ -6,21 +6,20 @@
 }
 
 
-@media screen and (min-width: 451px) and (max-width: 707px){
+@media screen and (max-width: 768px){
     .place__website{
         margin: 0 auto;
-        max-width: 288px;
-        
+        margin-bottom: 25px;
+        max-width: 340px;
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 450px){
     .place__website{
-        
         max-width: 288px;
-        
     }
 }
+
 
 @media screen and (max-width: 320px){
     .place__website{
