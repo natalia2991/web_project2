@@ -10,7 +10,7 @@
     max-width: 984px;
     margin: 0 auto 80px;
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
     grid-gap: 48px 40px;
 }
@@ -22,7 +22,6 @@
 @media screen and (max-width: 1024px){
     .place{
         max-width: 928px;
-        grid-template-columns: repeat(2, auto);
         grid-gap: 48px 32px;
     }
 

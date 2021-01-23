@@ -4,6 +4,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 29px;
+    margin: 0 auto;
 }
 
 
@@ -25,6 +26,5 @@
 @media screen and (max-width: 450px){
     .place__paragraphs{
         max-width: 288px;
-        margin: 0 auto;
     }
 }

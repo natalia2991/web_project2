@@ -3,16 +3,12 @@
     margin: 0;
     padding: 0;
     margin-bottom: 27px;
+    
+    
 }
 
 .place__paragraph:last-child{
     margin-bottom: 0;
-}
-
-@media screen and (max-width: 1024px){
-    .place__paragraph{
-        max-width: 100%;
-    }
 }
 
 

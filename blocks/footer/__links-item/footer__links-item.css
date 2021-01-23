@@ -1,12 +1,7 @@
 .footer__links-item{
     font-size: 16px;
     line-height: 18px;
-    margin-left: 18px;
     margin-right: 18px;
-}
-
-.footer__links-item:first-of-type{
-    margin-left: 0;
 }
 
 .footer__links-item:last-of-type{

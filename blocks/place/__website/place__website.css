@@ -6,8 +6,23 @@
 }
 
 
+@media screen and (min-width: 451px) and (max-width: 707px){
+    .place__website{
+        margin: 0 auto;
+        max-width: 288px;
+        
+    }
+}
 
-@media screen and (max-width: 450px){
+@media screen and (min-width: 321px) and (max-width: 450px){
+    .place__website{
+        
+        max-width: 288px;
+        
+    }
+}
+
+@media screen and (max-width: 320px){
     .place__website{
         display: none;
     }
