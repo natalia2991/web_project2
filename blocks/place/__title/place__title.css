@@ -6,7 +6,7 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    margin-top: auto;
+    align-self: end;
   
     
 }
@@ -27,7 +27,7 @@
     }
 }
 
-@media screen and (max-width: 706px){
+@media screen and (max-width: 707px){
     .place__title{
         max-width: 288px;
         margin: 0 auto;
