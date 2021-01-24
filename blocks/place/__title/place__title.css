@@ -1,14 +1,12 @@
 .place__title{
-    
+    margin: 0;
     padding: 0;
     max-width: 460px;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    margin-top: auto;
   
     
 }
@@ -29,7 +27,7 @@
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 767px){
     .place__title{
         max-width: 288px;
         margin: 0 auto;
