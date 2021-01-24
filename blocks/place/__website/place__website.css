@@ -12,9 +12,9 @@
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 767px){
+@media screen and (min-width: 321px) and (max-width: 706px){
     .place__website{
-        max-width: 288px;
+        
         margin: 0 auto;
     }
 }
